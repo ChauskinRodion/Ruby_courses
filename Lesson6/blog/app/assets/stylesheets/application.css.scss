@@ -1,0 +1,42 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+table td:nth-child(3), 
+table td:nth-child(4),
+table td:nth-child(5) {
+	text-align: center;
+}
+
+
+.glyphicon:hover{
+	text-decoration: none;
+}
+
+#postForm textarea{
+	min-height:100px
+}
+
+#user_remember_me{
+	margin-left:0;
+}
+
+#error_explanation h2 {
+font-size: 16px;	
+}
+
+#signUpForm{
+	width: 400px;
+	margin: 5% auto;
+}
+
+#postForm{
+	width: 70%;
+	margin: 5% auto;	
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}

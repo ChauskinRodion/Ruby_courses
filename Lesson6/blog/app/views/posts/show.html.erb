@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<div class="jumbotron">
+	<h1><%= @post.title %></h1>
+	<p><%= @post.text %></p>
+	<%= link_to 'Back to all posts', posts_path , class:"btn btn-default"%>
+	<%= link_to 'Edit',  edit_post_path(@post) ,class:"btn btn-primary"%>
+	
+</div>
